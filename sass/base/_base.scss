@@ -2,14 +2,14 @@
 body {
   min-height: 100vh;
   font-family: a.$txt-font;
-  background-image: url(../../images/bg-hero-mobile.svg);
+  background-image: url(../images/bg-hero-mobile.svg);
   background-repeat: no-repeat;
   background-position: center top;
   background-size: contain;
   background-color: a.$pale-cyan-clr;
 
   @include a.media-breakpoint-up(62em) {
-    background-image: url(../../images/bg-hero-desktop.svg);
+    background-image: url(../images/bg-hero-desktop.svg);
   }
 }
 
