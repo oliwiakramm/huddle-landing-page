@@ -1,0 +1,17 @@
+@use "../abstracts" as a;
+.header {
+  padding: 1.5rem 1rem 1.5rem;
+  @include a.flex(row, space-between);
+
+  &__logo {
+    width: 6.4rem;
+  }
+
+  @include a.media-breakpoint-up(62em) {
+    padding: 3rem 5rem;
+
+    &__logo {
+      width: 12.3rem;
+    }
+  }
+}
