@@ -10,7 +10,7 @@
     color: a.$dark-cyan-clr;
     padding: 0.4rem 1.5rem;
     font-size: 0.6rem;
-    box-shadow: 0px 5px 41px -11px rgba(66, 68, 90, 1);
+    box-shadow: 0px 5px 20px -11px rgba(66, 68, 90, 1);
 
     @include a.media-breakpoint-up(48em) {
       padding: 0.9rem 4.15rem;
