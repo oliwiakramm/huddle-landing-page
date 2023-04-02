@@ -104,7 +104,7 @@ th {
 .visually-hidden {
   clip: rect(0 0 0 0);
   -webkit-clip-path: inset(50%);
-          clip-path: inset(50%);
+  clip-path: inset(50%);
   height: 1px;
   overflow: hidden;
   position: absolute;
@@ -223,7 +223,7 @@ h2 {
   font-style: normal;
 }
 .contact__address > *::before {
-  content: url(../../images/icon-location.svg);
+  content: url(../images/icon-location.svg);
   margin: 0.5rem 1.6rem 0 0;
 }
 .contact__location {
@@ -231,21 +231,22 @@ h2 {
   line-height: 1.5;
   margin-top: 1.1rem;
 }
-.contact__phone, .contact__email {
+.contact__phone,
+.contact__email {
   margin-top: 1.3rem;
   align-items: center;
   font-size: 0.99rem;
   text-decoration: none;
 }
 .contact__phone::before {
-  content: url(../../images/icon-phone.svg);
+  content: url(../images/icon-phone.svg);
   margin-right: 1.3rem;
 }
 .contact__email {
   margin-top: 1.05rem;
 }
 .contact__email::before {
-  content: url(../../images/icon-email.svg);
+  content: url(../images/icon-email.svg);
   margin-right: 1.1rem;
 }
 @media screen and (min-width: 62em) {
@@ -582,4 +583,4 @@ h2 {
     padding: 1.6rem 6.3rem;
     font-size: 1.25rem;
   }
-}/*# sourceMappingURL=main.css.map */
+} /*# sourceMappingURL=main.css.map */
